@@ -7,9 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "DHToast.h"
 
 @interface ViewController ()
-
+@property (nonatomic, strong) IBOutlet UITextField *textField;
 @end
 
 @implementation ViewController
@@ -24,6 +25,16 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)showToast:(id)sender{
+    [_textField resignFirstResponder];
+    [DHToast dismissAllOverlaysForView:self.view animated:YES];
+    [DHToast showInView:self.view withMessage:_textField.text animated:YES];
+}
+
+- (IBAction)dismissToast:(id)sender {
+    [DHToast dismissAllOverlaysForView:self.view animated:YES];
 }
 
 @end
