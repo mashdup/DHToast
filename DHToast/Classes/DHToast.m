@@ -98,6 +98,18 @@
     _contentView = view;
 }
 
+- (void)setMessageTextColor:(UIColor *)color {
+    _messageLabel.textColor = color;
+}
+
+- (void)setMessageTextAlignment:(NSTextAlignment)alignment {
+    _messageLabel.textAlignment = alignment;
+}
+
+- (void)setMessageTextFont:(UIFont *)font {
+    _messageLabel.font = font;
+}
+
 #pragma mark init methods
 
 - (id)initWithFrame:(CGRect)frame {

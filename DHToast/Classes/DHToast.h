@@ -40,5 +40,9 @@
 
 - (void)setMessage:(NSString *)message;     // To change the message
 - (void)setContentView:(UIView *)view;      // To override the contentView, this will resize the view to the contentView before replacing.
+- (void)setMessageTextColor:(UIColor *)color;
+- (void)setMessageTextAlignment:(NSTextAlignment)alignment;
+- (void)setMessageTextFont:(UIFont *)font;
+
 
 @end
