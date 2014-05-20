@@ -22,6 +22,8 @@
 		5177ED2A192B938B0052DC5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5177ED28192B938B0052DC5D /* InfoPlist.strings */; };
 		5177ED2C192B938B0052DC5D /* DHToastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5177ED2B192B938B0052DC5D /* DHToastTests.m */; };
 		5177ED37192B941D0052DC5D /* DHToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 5177ED36192B941D0052DC5D /* DHToast.m */; };
+		5177ED3B192B9CD20052DC5D /* LICENCE in Resources */ = {isa = PBXBuildFile; fileRef = 5177ED39192B9CD20052DC5D /* LICENCE */; };
+		5177ED3C192B9CD20052DC5D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5177ED3A192B9CD20052DC5D /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		5177ED2B192B938B0052DC5D /* DHToastTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHToastTests.m; sourceTree = "<group>"; };
 		5177ED35192B941D0052DC5D /* DHToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DHToast.h; path = Classes/DHToast.h; sourceTree = "<group>"; };
 		5177ED36192B941D0052DC5D /* DHToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DHToast.m; path = Classes/DHToast.m; sourceTree = "<group>"; };
+		5177ED39192B9CD20052DC5D /* LICENCE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENCE; sourceTree = "<group>"; };
+		5177ED3A192B9CD20052DC5D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 				5177ED25192B938B0052DC5D /* DHToastTests */,
 				5177ECFC192B938B0052DC5D /* Frameworks */,
 				5177ECFB192B938B0052DC5D /* Products */,
+				5177ED39192B9CD20052DC5D /* LICENCE */,
+				5177ED3A192B9CD20052DC5D /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -243,6 +249,8 @@
 			files = (
 				5177ED19192B938B0052DC5D /* Images.xcassets in Resources */,
 				5177ED11192B938B0052DC5D /* Main_iPhone.storyboard in Resources */,
+				5177ED3C192B9CD20052DC5D /* README.md in Resources */,
+				5177ED3B192B9CD20052DC5D /* LICENCE in Resources */,
 				5177ED08192B938B0052DC5D /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
