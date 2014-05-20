@@ -1,6 +1,6 @@
 //
 //  DHToast.m
-//  sales-i
+//  8BitDog
 //
 //  Created by Dillon Hoa on 19/05/2014.
 //
