@@ -6,7 +6,7 @@ DHToast
 A simple quick toast message. If you just need to pop a small message in any view. Check definitions in the header for defaults.
 
 ##Usage
-Basic use is to import the header and call the instance method
+Basic use is to import the header and call the class method
 ```objc
 #import "DHToast.h"
 
